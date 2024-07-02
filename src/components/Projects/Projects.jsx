@@ -6,7 +6,7 @@ const Projects = () => {
   return (
     <div className="p-10 bg-gray-100">
           <NavBar />
-      <h2 className="text-4xl bg-black text-white py-2 mt-5 font-bold text-center mb-10">
+      <h2 className="text-4xl bg-orange-500 text-white py-2 mt-5 font-bold text-center mb-10">
         Projects I Have Built
       </h2>
       <div className="flex flex-wrap justify-center gap-5">
