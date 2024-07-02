@@ -36,7 +36,7 @@ const NavBar = () => {
    <div>
    <div className="btn btn-ghost text-xl">
       <img className='w-[80px] h-[80px] rounded-full' src="https://media.licdn.com/dms/image/D5603AQElIzXTxegXXQ/profile-displayphoto-shrink_800_800/0/1718464569380?e=1725494400&v=beta&t=ISTKuVsvizBjeiVxTF6JBh-yKLHws-kqkOLKUlS7Jdw" alt="ImranImg" />
-      <h3>Md Emran Hossain</h3>
+    
 
     </div>
    

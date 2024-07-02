@@ -11,7 +11,7 @@ import nodeJsLogo from '../../assets/nodejs.png';
 
 const Skills = () => {
     return (
-        <div className='my-16'>
+        <div className='my-5 bg-base-200 px-12 py-5 rounded-xl'>
             <div className='text-2xl my-5 font-bold text-cyan-500'>My Skills</div>
             <div className='grid grid-cols-5 gap-4 '>
                 <img className='w-24' src={htmlLogo} alt="HTML Logo" />

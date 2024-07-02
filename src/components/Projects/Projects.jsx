@@ -7,7 +7,7 @@ const Projects = () => {
         Projects I Have Built
       </h2>
       <div className="flex flex-wrap justify-center gap-5">
-        <div className="card bg-white shadow-xl w-[1300px]">
+        <div className="card bg-base-200  shadow-xl w-[1300px]">
           <div className="card-body items-center text-center">
             <h2 className="card-title text-2xl font-bold">Machine-World</h2>
             <p className="text-gray-600 mt-4">
@@ -72,7 +72,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="card bg-white shadow-xl w-[1300px]">
+        <div className="card  bg-base-200 bg-white shadow-xl w-[1300px]">
           <div className="card-body items-center text-center">
             <h2 className="card-title text-2xl font-bold">Epicurean-Arena</h2>
             <p className="text-gray-600 mt-4">
@@ -134,7 +134,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="card bg-white shadow-xl w-[1300px]">
+        <div className="card  bg-base-200 bg-white shadow-xl w-[1300px]">
           <div className="card-body items-center text-center">
             <h2 className="card-title text-2xl font-bold">Regal Residences</h2>
             <p className="text-gray-600 mt-4">
