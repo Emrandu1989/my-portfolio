@@ -1,6 +1,7 @@
 import React from "react";
 import Skills from "../Skills/Skills";
 import NavBar from "../NavBar/NavBar";
+import Footer from "../Footer/Footer";
 
 const About = () => {
   return (
@@ -21,9 +22,9 @@ const About = () => {
         </figure>
         <div className="card-body">
           <h2 className="text-xl font-bold">MSS(Political Science)</h2>
-          <h2 className="text-xl font-bold">University Of Dhaka</h2>
-           <h3 className="text-lg font-bold">CGPA: 3.33(out of 4)</h3>
-           <h4 className="text-lg font-bold">Session: 2013-2014</h4>
+          <h2 className="text-lg font-bold">University Of Dhaka</h2>
+           <h3 className="text-lg font-bold">CGPA: 3.33 (out of 4)</h3>
+           <h4 className="text-lg font-bold">Duration: 2013-2014</h4>
         
         </div>
       </div>
@@ -36,13 +37,14 @@ const About = () => {
         </figure>
         <div className="card-body">
           <h2 className="text-xl font-bold">BSS(Political Science)</h2>
-          <h2 className="text-xl font-bold">University Of Dhaka</h2>
-          <h3 className="text-lg font-bold">CGPA: 3.18(out of 4)</h3>
-           <h4 className="text-lg font-bold">Session: 2009-2012</h4>
+          <h2 className="text-lg font-bold">University Of Dhaka</h2>
+          <h3 className="text-lg font-bold">CGPA: 3.18 (out of 4)</h3>
+           <h4 className="text-lg font-bold">Duration: 2009-2012</h4>
         </div>
       </div>
     </div>
       </div>
+        <Footer />
     </div>
   );
 };
