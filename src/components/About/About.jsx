@@ -10,10 +10,10 @@ const About = () => {
           <div>
                <Skills />
           </div>
-      <div className="bg-base-200 py-5 px-12 rounded-xl">
+      <div className="bg-base-200  py-5 lg:px-12 rounded-xl">
       <h2 className="text-3xl font-bold text-cyan-600">My Education</h2>
-    <div className="flex gap-12 my-12">
-    <div className="card bg-base-00  w-full shadow-xl">
+    <div className="lg:flex  lg:gap-12 -mt-5 lg:my-12">
+    <div className="card bg-base-00 my-5  w-[500px] shadow-xl">
         <figure>
           <img 
             src="https://images.prothomalo.com/prothomalo-english/2021-07/2c69fa94-e8a0-423f-a270-8c7443e72b98/du.webp?w=1200&h=675&auto=format%2Ccompress&fit=max"
@@ -28,7 +28,7 @@ const About = () => {
         
         </div>
       </div>
-      <div className="card bg-base-200 w-full shadow-xl">
+      <div className="card bg-base-200  w-[500px]  shadow-xl">
         <figure>
           <img className="w-[500px] rounded-xl "
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNN_XRqMICYUde_ToDf22MwBodhC1i2aSHJQ&s"
