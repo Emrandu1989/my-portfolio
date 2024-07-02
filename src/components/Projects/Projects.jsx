@@ -4,13 +4,13 @@ import Footer from "../Footer/Footer";
 
 const Projects = () => {
   return (
-    <div className="p-10 bg-gray-100">
+    <div className="lg:p-10 bg-gray-100">
           <NavBar />
-      <h2 className="text-4xl bg-orange-500 text-white py-2 mt-5 font-bold text-center mb-10">
+      <h2 className="text-2xl lg:text-4xl bg-orange-500 text-white py-2 mt-5 font-bold text-center mb-10">
         Projects I Have Built
       </h2>
       <div className="flex flex-wrap justify-center gap-5">
-        <div className="card  bg-base-200  shadow-xl w-[1300px]">
+        <div className="card  lg:bg-base-200  shadow-xl lg:w-[1300px]">
           <div className="card-body items-center text-center">
             <h2 className="card-title text-2xl -mt-16 font-bold">Machine-World</h2>
             <p className="text-gray-600 mt-4">
@@ -75,7 +75,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="card  bg-base-200  shadow-xl w-[1300px]">
+        <div className="card   lg:bg-base-200  shadow-xl lg:w-[1300px]">
           <div className="card-body items-center text-center">
             <h2 className="card-title text-2xl -mt-9  font-bold">Epicurean-Arena</h2>
             <p className="text-gray-600 mt-4">
@@ -137,7 +137,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="card  bg-base-200 shadow-xl w-[1300px]">
+        <div className="card  lg:bg-base-200 shadow-xl w-[1300px]">
           <div className="card-body items-center text-center">
             <h2 className="card-title text-2xl -mt-9 font-bold">Regal Residences</h2>
             <p className="text-gray-600 mt-4">
