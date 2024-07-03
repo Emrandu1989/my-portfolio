@@ -18,7 +18,7 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     emailjs.send(
-      'service_0zagxd7',
+      'service_b4xfnen',
       'template_rc90exe',
       formData,
       'cMEPgwgK4fbdJWZZz'
