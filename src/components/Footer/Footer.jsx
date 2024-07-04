@@ -3,7 +3,7 @@ import { FaBeer, FaFacebook, FaGithub, FaYoutube } from 'react-icons/fa';
 const Footer = () => {
     return (
         <>
-            <footer className="footer flex flex-col  lg:flex-row justify-between lg:px-96 items-center font-semibold bg-blue-700 text-neutral-content p-10">
+            <footer className="footer flex flex-col  lg:flex-row justify-between lg:px-60 items-center font-semibold bg-blue-700 text-neutral-content p-10">
                 <aside className='flex flex-col space-y-2 justify-center items-center'>
                 
                      <h2 className='text-xl'>Current Address</h2>
