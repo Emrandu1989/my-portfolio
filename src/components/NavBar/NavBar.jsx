@@ -37,8 +37,9 @@ const NavBar = () => {
             </ul>
           </div>
           <div>
-            <div className="btn btn-ghost text-xl">
-              <img className='w-[80px] h-[80px] rounded-full' src="https://media.licdn.com/dms/image/D5603AQElIzXTxegXXQ/profile-displayphoto-shrink_800_800/0/1718464569380?e=1725494400&v=beta&t=ISTKuVsvizBjeiVxTF6JBh-yKLHws-kqkOLKUlS7Jdw" alt="ImranImg" />
+            <div>
+               <h2 className='text-xl font-bold'>Md.Emran Hossain</h2>
+               <h4 className=''>Web Developer</h4>
             </div>
           </div>
         </div>
@@ -47,9 +48,7 @@ const NavBar = () => {
             {navLinks}
           </ul>
         </div>
-        <div className="navbar-end">
-          <a href="/EmranResume.pdf" className="btn" download>Download Resume</a>
-        </div>
+      
       </div>
     </>
   );

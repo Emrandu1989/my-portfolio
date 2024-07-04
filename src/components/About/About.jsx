@@ -7,11 +7,12 @@ const About = () => {
   return (
     <div>
           <NavBar />
-          <div>
+         <div className="flex flex-col justify-center items-center">
+         <div>
                <Skills />
           </div>
       <div className="bg-base-200  py-5 lg:px-12 rounded-xl">
-      <h2 className="text-3xl font-bold text-cyan-600">My Education</h2>
+      <h2 className="text-3xl text-center font-bold text-cyan-600">My Education</h2>
     <div className="lg:flex  lg:gap-12 -mt-5 lg:my-12">
     <div className="card bg-base-00 my-5  w-[500px] shadow-xl">
         <figure>
@@ -44,6 +45,7 @@ const About = () => {
       </div>
     </div>
       </div>
+         </div>
         <Footer />
     </div>
   );

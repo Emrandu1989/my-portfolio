@@ -1,31 +1,37 @@
-import React from 'react';
-import htmlLogo from '../../assets/html.webp';
-import cssLogo from '../../assets/css.webp';
-import tailwindCssLogo from '../../assets/tailwind-css-hd-logo (1).png';
-import daysiUiLogo from '../../assets/daysi.svg';
-import javaScriptLogo from '../../assets/javaScript.png';
-import reactLogo from '../../assets/react.svg';
-import mongoDbLogo from '../../assets/mongoDb.png';
-import expressJsLogo from '../../assets/express.png';
-import nodeJsLogo from '../../assets/nodejs.png';
+import React from "react";
+
+const skillsData = [
+  { name: "HTML", icon: "🌐" },
+  { name: "CSS", icon: "🎨" },
+  { name: "JavaScript", icon: "💻" },
+  { name: "ReactJS", icon: "⚛️" },
+  { name: "NodeJS", icon: "🌱" },
+  { name: "ExpressJS", icon: "🚀" },
+  { name: "MongoDB", icon: "🍃" },
+  { name: "Firebase", icon: "🔥" },
+  { name: "Git", icon: "🔧" },
+  { name: "GitHub", icon: "🐙" },
+];
 
 const Skills = () => {
-    return (
-        <div className='my-5 bg-base-200 px-12 py-5 rounded-xl'>
-            <div className='text-2xl my-5 font-bold text-cyan-500'>My Technical Skills</div>
-            <div className='grid grid-cols-3 lg:grid-cols-5 lg:gap-4 gap-4 '>
-                <img className='w-24' src={htmlLogo} alt="HTML Logo" />
-                <img className='w-24' src={cssLogo} alt="CSS Logo" />
-                <img className='w-24 mt-5' src={tailwindCssLogo} alt="Tailwind CSS Logo" />
-                <img className='w-24 mt-5' src={daysiUiLogo} alt="DaisyUI Logo" />
-                <img className='w-24' src={javaScriptLogo} alt="JavaScript Logo" />
-                <img className='w-24' src={reactLogo} alt="React Logo" />
-                <img className='w-24' src={mongoDbLogo} alt="MongoDB Logo" />
-                <img className='w-32 mt-3' src={expressJsLogo} alt="Express.js Logo" />
-                <img className='w-24 mt-2 ml-5' src={nodeJsLogo} alt="Node.js Logo" />
+  return (
+    <section id="skills" className=" py-12">
+      <div className="container mx-auto text-center">
+        <h2 className="text-3xl font-bold text-cyan-600 mb-8">My Skills</h2>
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
+          {skillsData.map((skill, index) => (
+            <div
+              key={index}
+              className="bg-white shadow-lg p-6 rounded-lg flex flex-col items-center"
+            >
+              <div className="text-4xl mb-4">{skill.icon}</div>
+              <h3 className="text-xl font-semibold">{skill.name}</h3>
             </div>
+          ))}
         </div>
-    );
+      </div>
+    </section>
+  );
 };
 
 export default Skills;
