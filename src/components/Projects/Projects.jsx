@@ -6,13 +6,19 @@ const Projects = () => {
   return (
     <div className="lg:p-10 bg-gray-100">
           <NavBar />
-      <h2 className="text-2xl lg:text-4xl bg-orange-500 text-white py-2 mt-5 font-bold text-center mb-10">
+      <h2 className="text-2xl lg:text-4xl  py-2 mt-5 font-bold text-center mb-10">
         Projects I Have Built
       </h2>
       <div className="flex flex-wrap justify-center gap-5">
-        <div className="card  lg:bg-base-200  shadow-xl lg:w-[1300px]">
+        <div className="card  lg:bg-base-200  shadow-xl lg:w-[800px]">
+         
           <div className="card-body items-center text-center">
-            <h2 className="card-title text-2xl -mt-16 font-bold">Machine-World</h2>
+          <figure>
+    <img
+      src="../../../src/assets/machine-world.png"
+      alt="Shoes" />
+  </figure>
+            <h2 className="card-title text-2xl  font-bold">Machine-World</h2>
             <p className="text-gray-600 mt-4">
               Machine World is an employee management system for tracking tasks,
               wages, and agreements. Employees can post workflow updates, and HR
@@ -75,9 +81,14 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="card   lg:bg-base-200  shadow-xl lg:w-[1300px]">
+        <div className="card   lg:bg-base-200  shadow-xl lg:w-[800px]">
           <div className="card-body items-center text-center">
-            <h2 className="card-title text-2xl -mt-9  font-bold">Epicurean-Arena</h2>
+          <figure>
+    <img
+      src="../../../src/assets/epicurianArena.png"
+      alt="Shoes" />
+  </figure>
+            <h2 className="card-title text-2xl font-bold">Epicurean-Arena</h2>
             <p className="text-gray-600 mt-4">
             Epicurean Arena is a community platform that reduces food waste and encourages food sharing. Users can easily donate surplus food, request donations, and manage contributions.
             </p>
@@ -139,7 +150,12 @@ const Projects = () => {
         </div>
         <div className="card  lg:bg-base-200 shadow-xl w-[1300px]">
           <div className="card-body items-center text-center">
-            <h2 className="card-title text-2xl -mt-9 font-bold">Regal Residences</h2>
+          <figure>
+    <img
+      src="../../../src/assets/regalResidence.png"
+      alt="Shoes" />
+  </figure>
+            <h2 className="card-title text-2xl  font-bold">Regal Residences</h2>
             <p className="text-gray-600 mt-4">
             Epicurean Arena is a community platform that reduces food waste and encourages food sharing. Users can easily donate surplus food, request donations, and manage contributions.
             </p>

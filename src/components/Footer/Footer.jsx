@@ -3,10 +3,9 @@ import { FaBeer, FaFacebook, FaGithub, FaYoutube } from 'react-icons/fa';
 const Footer = () => {
     return (
         <>
-            <footer className="footer flex flex-col lg:flex-row justify-between lg:px-36 items-center font-semibold bg-blue-700 text-neutral-content p-10">
+            <footer className="footer flex flex-col  lg:flex-row justify-between lg:px-96 items-center font-semibold bg-blue-700 text-neutral-content p-10">
                 <aside className='flex flex-col space-y-2 justify-center items-center'>
-                    <img  className='w-36 rounded-lg' src="https://cdn.sanity.io/images/tlr8oxjg/production/1ca7b34a8d5308a03ae186dfe72caabce0327fe2-1456x816.png?w=3840&q=80&fit=clip&auto=format" alt="" />
-                     
+                
                      <h2 className='text-xl'>Current Address</h2>
                     <p className=''>
                         11/A,Dhaka Housing, Adabor
@@ -17,6 +16,7 @@ const Footer = () => {
                     <p>phone:(+880)1638587670</p>
                     <p>Email:emrandu1989@gamil.com</p>
                 </aside>
+            
                 <nav className='flex flex-col justify-center items-center'>
                     <h6 className="text-2xl font-semibold text-white mb-2">Social</h6>
                     <div className="grid grid-flow-col gap-4">
@@ -36,7 +36,14 @@ const Footer = () => {
                          <p>U.P:Ishurdi, Dist:Pabna</p>
                     </div>
                 </nav>
+                
             </footer>
+            <footer className="footer footer-center  bg-blue-700 font-bold text-neutral-content p-4">
+  <aside>
+    <p>Copyright © ${new Date().getFullYear()} - All right reserved by  Md.Emran Hossain</p>
+  </aside>
+</footer>
+           
         </>
     );
 };

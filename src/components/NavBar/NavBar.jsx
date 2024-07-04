@@ -14,9 +14,16 @@ const NavBar = () => {
   return (
     <>
       <div className="navbar bg-blue-700 text-white">
-        <div className="navbar-start">
-          <div className="dropdown">
-            <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+        <div className="flex justify-between items-end">
+         
+          <div>
+            <div className='lg:ml-36'>
+               <h2 className='text-xl font-bold'>Md.Emran Hossain</h2>
+               <h4 className=''>Web Developer</h4>
+            </div>
+          </div>
+          <div className="dropdown ml-36">
+            <div tabIndex={0} role="button" className="btn btn-ghost  lg:hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"
@@ -32,19 +39,13 @@ const NavBar = () => {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content bg-black text-white rounded-box z-[1] mt-3 w-52 p-2 shadow">
+              className="menu menu-sm dropdown-content bg-black text-white rounded-box z-[1] mt-3 w-52 p-2  shadow">
               {navLinks}
             </ul>
           </div>
-          <div>
-            <div>
-               <h2 className='text-xl font-bold'>Md.Emran Hossain</h2>
-               <h4 className=''>Web Developer</h4>
-            </div>
-          </div>
         </div>
-        <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">
+        <div className="navbar-end hidden lg:flex">
+          <ul className="menu menu-horizontal px-12 text-xl">
             {navLinks}
           </ul>
         </div>
