@@ -4,7 +4,7 @@ import Footer from "../Footer/Footer";
 
 const Projects = () => {
   return (
-    <div className="lg:p-10 bg-gray-100">
+    <div className=" bg-gray-100">
           <NavBar />
       <h2 className="text-2xl lg:text-4xl  py-2 mt-5 font-bold text-center mb-10">
         Projects I Have Built
