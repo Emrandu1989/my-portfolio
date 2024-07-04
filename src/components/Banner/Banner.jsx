@@ -10,7 +10,7 @@ const Banner = () => {
     backgroundImage: "url(https://t4.ftcdn.net/jpg/02/83/46/33/360_F_283463385_mfnrx6RPU3BqObhVuVjYZjeZ5pegE7xq.jpg)",
   }}>
   <div className="hero-overlay bg-opacity-60"></div>
-  <div className="hero-content flex flex-col-reverse lg:flex-row text-neutral-content text-center">
+  <div className="hero-content flex flex-col-reverse lg:flex-row  text-neutral-content text-center">
     <div className="max-w-md">
       <h1 className="mb-5 text-2xl lg:text-4xl font-bold">Hello there <br /> I'm</h1>
        <h1 className='text-2xl lg:text-4xl font-bold'>Md Emran Hossain</h1>
@@ -47,8 +47,8 @@ const Banner = () => {
           </div>
      
     </div>
-    <div>
-       <img  className="border-red-500 lg:ml-72 border-4 w-48 h-48 md:w-[600px] md:h-[600px] rounded-[300px] object-cover" src="https://i.ibb.co/hdQ4XX6/unnamed.jpg" alt="" />
+    <div >
+       <img  className="border-red-500 lg:ml-72 border-4 w-48 h-48 md:w-[500px] md:h-[500px] rounded-[300px] object-cover" src="https://i.ibb.co/hdQ4XX6/unnamed.jpg" alt="" />
     </div>
     
   </div>
