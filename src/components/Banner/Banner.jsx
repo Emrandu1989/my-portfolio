@@ -28,10 +28,10 @@ const Banner = () => {
             </a>
 
             <div className="flex justify-center items-center gap-5">
-              <a className="flex justify-center items-center text-center p-2 rounded-full bg-red-500 text-white text-xl" href="">
+              <a className="flex justify-center items-center text-center p-2 rounded-full bg-red-500 text-white text-xl" href="https://facebook.com/emrandu1989">
                 <FaFacebook></FaFacebook>
               </a>
-              <a className="flex justify-center items-center text-center p-2 rounded-full bg-red-500 text-white text-xl" href="">
+              <a className="flex justify-center items-center text-center p-2 rounded-full bg-red-500 text-white text-xl" href="https://www.linkedin.com/in/md-emran-hossain-659012314">
                 <FaLinkedin/>
               </a>
               <a className="flex justify-center items-center text-center p-2 rounded-full bg-red-500 text-white text-xl" href="">
@@ -40,7 +40,7 @@ const Banner = () => {
               <a className="flex justify-center items-center text-center p-2 rounded-full bg-red-500 text-white text-xl" href="">
                 <FaTelegram></FaTelegram>
               </a>
-              <a className="flex justify-center items-center text-center p-2 rounded-full bg-red-500 text-white text-xl" href="">
+              <a className="flex justify-center items-center text-center p-2 rounded-full bg-red-500 text-white text-xl" href="https://youtube.com">
                 <FaYoutube></FaYoutube>
               </a>
             </div>
